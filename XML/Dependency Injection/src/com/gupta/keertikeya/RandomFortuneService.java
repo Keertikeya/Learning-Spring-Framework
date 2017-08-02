@@ -1,11 +1,17 @@
 package com.gupta.keertikeya;
 
+import java.util.Random;
+
 public class RandomFortuneService implements FortuneService {
 
+	private String fortunes[] = {"Just do it!", "Never settle!", "Go big or go home!"};
+	
+	Random rnd = new Random();
+	
 	@Override
 	public String getDailyFortune() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return fortunes[rnd.nextInt(3)];
 	}
 
 }

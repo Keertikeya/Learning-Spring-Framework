@@ -13,7 +13,7 @@
     <!-- Define your beans here -->
     
     <bean id="myFortuneServiceDependency"
-    	class="com.gupta.keertikeya.HappyFortuneService">
+    	class="com.gupta.keertikeya.RandomFortuneService">
     </bean>
     
     <bean id="myCoachClass"
